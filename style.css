@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    padding-top: 30px;
+}
+
+.card-container {
+    width: 375px;
+    height: auto;
+    background-color:hsl(244, 38%, 16%);
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
+.img-container {
+    width: 100%;
+    height: 309.71px;
+    background-color:hsl(277, 64%, 61%);
+    
+}
+.img-container img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    opacity: .5;
+    
+}
+
+.text-container {
+   text-align: center;
+   margin:10px 10px;
+   padding: 0px 30px ;
+}
+
+.text1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;;
+}
+
+.text1 span {
+    color: hsl(277, 64%, 61%)
+}
+
+.text2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+.indicator-container{
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    
+}
+.indi1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 18px
+    
+}
+
+.indi2 {
+   color: hsla(0, 0%, 100%, 0.6);
+   margin-bottom: 20px;
+   font-size: 12px;
+}
+
+
+@media (min-width: 768px) {
+    .card-container {
+        width: 900px;
+        height: auto;
+        background-color:hsl(244, 38%, 16%);
+        margin: auto;
+        border-radius: 10px 10px 10px 10px;
+        display: flex;
+        flex-direction:row-reverse;
+        
+    
+    }
+    .img-container {
+        width: 100%;
+        height: 355.1px;
+        background-color:hsl(277, 64%, 61%);
+        border-radius: 0px 10px 10px 0
+        
+    }
+    .img-container img{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 10px 10px 0;
+        margin-bottom: 20px;
+        opacity: .5;
+        
+    }
+
+    .text-container {
+        text-align: left;
+        margin-top: 30px;
+        
+     }
+
+     .text1 {
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 30px;;
+    }
+   
+    .text2 {
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 16px;
+        font-family: 'Lexend Deca', sans-serif;
+        margin-bottom: 60px;
+        
+    }
+    .indicator-container{
+        font-family: 'Lexend Deca', sans-serif;
+        text-align: center;
+        display: flex;
+        flex-direction:row; 
+        text-align: left;
+        margin: -10px;
+        justify-content:space-around;
+        
+        
+    }
+    
+}
